@@ -5,7 +5,7 @@
   tasks:
 
   - name: install apache2 and libapache2 packages
-    apt: 
+    package: 
       name:
         - "{{ apache_package }}"
         - "{{ php_package }}"
